@@ -1,5 +1,7 @@
 rebol []
 
+testing: does [ print "it worked" ] 
+
 parse-math: funct [
     {Turn a math expression like "4+4*4/(a+4)" into a rebol block}
     str
